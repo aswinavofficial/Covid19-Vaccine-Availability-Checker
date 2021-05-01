@@ -17,7 +17,7 @@ def send_mail(subject, data):
 		settings["mail_gun_url"],
 		auth=("api", mailgun_apikey),
 		data={"from": settings["from"],
-			"to":     settings["from"],
+			"to":     settings["to"],
 			"subject": subject,
 			"text": "No centres",
 			"html": data})

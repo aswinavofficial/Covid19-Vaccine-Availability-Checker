@@ -30,7 +30,7 @@ print(date_str)
 response_list = []
 
 for date in date_str:
-	url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=307&date=" + date
+	url = settings["cowin_api_base_url"] + "district_id=" + settings["district_id"] + "&date=" + date
 
 	response = requests.get(url)
 	print(response.status_code)

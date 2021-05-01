@@ -1,0 +1,5 @@
+{
+    "from": "vaccine@aswin.tech",
+    "to": ["vaccine@aswin.tech"],
+    "mail_gun_url" : "https://api.mailgun.net/v3/sandboxbda871b63e7549e487da6d9900b0cc23.mailgun.org/messages"
+}

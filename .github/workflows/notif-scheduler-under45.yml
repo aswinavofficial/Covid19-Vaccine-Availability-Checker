@@ -1,4 +1,4 @@
-name: notif-scheduler
+name: notif-scheduler-under45
 
 on:
   workflow_dispatch:

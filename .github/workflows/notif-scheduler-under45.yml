@@ -25,6 +25,6 @@ jobs:
       - name: execute py script # run vaccine-notif.py to get the latest data
         env: 
           MAIL_GUN_APIKEY: ${{ secrets.MAIL_GUN_APIKEY }}
-        run: python vvaccine-notif-under45.py
+        run: python vaccine-notif-under45.py
           
      

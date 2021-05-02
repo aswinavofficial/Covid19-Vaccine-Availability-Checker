@@ -77,7 +77,7 @@ if len(under_45_centers) > 0:
 
 
 #Sending Mail for all available centers
-if len(all_available_centers) > 0:
-	htmlTable = json2html.convert(json = all_available_centers)
-	print(send_mail("Vaccine Availability Notification - All Available Centers",htmlTable))
+#if len(all_available_centers) > 0:
+#htmlTable = json2html.convert(json = all_available_centers)
+#print(send_mail("Vaccine Availability Notification - All Available Centers",htmlTable))
 

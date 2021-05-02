@@ -3,5 +3,5 @@
     "to": ["vaccine@aswin.tech"],
     "mail_gun_url" : "https://api.mailgun.net/v3/sandboxbda871b63e7549e487da6d9900b0cc23.mailgun.org/messages",
     "cowin_api_base_url" : "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?",
-    "district_id" : "363"
+    "district_id" : "307"
 }

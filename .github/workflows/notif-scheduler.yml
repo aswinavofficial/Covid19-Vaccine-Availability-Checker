@@ -3,7 +3,7 @@ name: notif-scheduler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */1 * * *' # run every hour
+    - cron: '*/6 * * * *' # run 6 minutes
 
 jobs:
   build:

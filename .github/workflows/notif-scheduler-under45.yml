@@ -3,7 +3,7 @@ name: notif-scheduler-under45
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/6 * * * *' # run 6 minutes
+    - cron: '*/7 * * * *' # run 6 minutes
 
 jobs:
   build:
@@ -25,6 +25,6 @@ jobs:
       - name: execute py script # run vaccine-notif.py to get the latest data
         env: 
           MAIL_GUN_APIKEY: ${{ secrets.MAIL_GUN_APIKEY }}
-        run: python vaccine-notif.py
+        run: python vvaccine-notif-under45.py
           
      
